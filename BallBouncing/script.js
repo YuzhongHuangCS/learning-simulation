@@ -462,8 +462,7 @@ if (!Detector.webgl) {
 var camera, scene, renderer, controls, clock, container, stats; // Scene and drawing
 var sphereGeo, boxGeo, grid; // Geometry
 var sphereMaterial, boxMaterial; // Materials
-var sphereMesh, boxMesh, wireMesh, gridMeshLines = [],
-solidPlane; // The meshes
+var sphereMesh, boxMesh, wireMesh, gridMeshLines = [], solidPlane; // The meshes
 var Parameters = {
 	"gravity": -9.8,
 	"start velocity x": -3.0,
